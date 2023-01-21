@@ -21,6 +21,13 @@
     padding: 20px;
 }
 
+.container#blur.active {
+    filter: blur(20px);
+    -webkit-filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+
 .container .content {
     position: relative;
     max-width: 800px;
@@ -48,3 +55,4 @@ a {
     color: #fff;
     background: #111;
 }
+
